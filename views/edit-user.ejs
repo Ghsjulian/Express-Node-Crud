@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
 <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-<title>Edit User | E X P R E S S</title>
+<title>E X P R E S S</title>
 <meta content="" name="description" />
 <meta content="" name="keywords" />
 <!-- Favicons -->
@@ -13,14 +13,19 @@
 <link href="style.css" rel="stylesheet" />
 </head>
 <body>
+<% if(users){
+    console.log(users[0].user_name)
+    %>
 <div class="form">
 <form action="/add-user" method="POST" name="myfrm">
 <h2>Edit User</h2>
-<input type="text" name="name" placeholder="Enter Name">
-<input type="email" name="email" placeholder="Enter email">
-<input type="telephone" name="phone" placeholder="Enter Phone">
+<input type="text" name="name" placeholder="Enter Name" value="<%=users[0].user_name%>">
+<input type="email" name="email" placeholder="Enter email" value="<%=users[0].user_email%>">
+<input type="telephone" name="phone" placeholder="Enter Phone" value="<%=users[0].user_phone%>">
+<input type="text" name="user_id" value="<%=users[0].user_id%>" hidden="true">
 <button type="submit" id="btn">Submit </button>
 </form>
 </div>
+<% } %>
 </body>
 </html>

@@ -1,30 +1,24 @@
-# Sample Application with Node.js and Express Framework
+<center>
+  <h1>ExpressJS NodeJS CRUD Operation</h1>
+  <br/>
+  <h2>Author : Ghs Julian</h2>
+<br/>
+<strong>
+  This Repository is about crud operation using Express , Node and MySQL.
+  This amazing really ! I'll recommend please try it once ! 
+</strong>
+<br/><br/>
+<h2>How to use ?</h2><br/>
+</center>
+<li>Clone this repository</li>
+<li>Create a database on your phpmyadmin or apache server</li>
+<li>Open the repository which you've cloned right now , you'll see a database sql file named
+users.sql</li>
+<li>Import the users.sql file on your MySQL PHPmyadmin .</li>
+<li>That's it ! Now it fixed</li>
 
-This sample is running on: https://node-express.is-easy-on-scalingo.com/
-
-## Deploy via Git
-
-Create an application on https://scalingo.com, then:
-
-```shell
-scalingo --app my-app git-setup
-git push scalingo master
+<center>How to clone ?</center>
+<br/>
 ```
 
-And that's it!
-
-## Deploy via One-Click
-
-[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy)
-
-## Running Locally
-
-```shell
-docker compose build
-docker compose run --rm web npm install
-docker compose up
 ```
-
-## Links
-
-Documentation: https://doc.scalingo.com/languages/javascript/nodejs

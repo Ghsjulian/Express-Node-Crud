@@ -23,45 +23,25 @@
 <th>Edit</th>
 <th>Delete</th>
 </tr>
-<tr>
-<td>01</td>
-<td><strong>Ghs Julian</strong></td>
-<td><a id="edit" href="/edit-user">Edit</a></td>
-<td><a id="delete" href="/delete-user">Delete</a></td>
+<% if (users.length > 0){  %>
+<% for (var i = 0; i < users.length; i++){
+%>
+<tr> 
+<td><%-i%></td>
+<td><strong><%-users[i].user_name %></strong>
+</td>
+<td> <a id="edit" href="/edit-user?userId=<%-users[i].user_id %>"> Edit </a> 
+</td> 
+<td><a id="delete" href="/delete-user?userId=<%-users[i].user_id%>"> Delete </a>
+</td>
 </tr>
-<tr>
-<td>02</td>
-<td><strong>Smita Smith</strong></td>
-<td><a id="edit" href="/edit-user">Edit</a></td>
-<td><a id="delete" href="/delete-user">Delete</a></td>
-</tr>
-<tr>
-<td>03</td>
-<td><strong>Alice Cooper</strong></td>
-<td><a id="edit" href="/edit-user">Edit</a></td>
-<td><a id="delete" href="/delete-user">Delete</a></td>
-</tr>
-<tr>
-<td>04</td>
-<td><strong>Maria Smith</strong></td>
-<td><a id="edit" href="/edit-user">Edit</a></td>
-<td><a id="delete" href="/delete-user">Delete</a></td>
-</tr>
-<tr>
-<td>05</td>
-<td><strong>Siya Rai</strong></td>
-<td><a id="edit" href="/edit-user">Edit</a></td>
-<td><a id="delete" href="/delete-user">Delete</a></td>
-</tr>
-<tr>
-<td>06</td>
-<td><strong>Sunita Sharma</strong></td>
-<td><a id="edit" href="/edit-user">Edit</a></td>
-<td><a id="delete" href="/delete-user">Delete</a></td>
-</tr>
-
+<% } %>
+<% } else { %> < strong > No User Found</strong >
+<% } %>
 
 </table>
+
+
 </div>
 </body>
 </html>
