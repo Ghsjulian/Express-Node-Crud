@@ -1,0 +1,148 @@
+body {
+    background: #e3e3e3;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+h1 {
+    color: #e36b00;
+    font-family: serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    text-align: center;
+}
+.form {
+    max-width: 550px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background: #ffffff;
+    border: 0.1px solid #fff;
+    border-radius: 8px;
+    /*  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;*/
+}
+.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.form h2 {
+    text-align: center;
+    color: #4d4d4d;
+}
+.form form input {
+    width: 80%;
+    padding: 0.8rem 1rem;
+    margin: 0.7rem auto;
+    border: 1px solid #02e8ff;
+    color: #525252;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 8px;
+    outline: none;
+    background: transparent;
+}
+
+.form form #btn {
+    padding: 0.5rem 1.6rem;
+    margin: 0.5rem auto;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background: #00acb1;
+}
+
+.form form #btn:hover {
+    background: #740073;
+    border: none;
+}
+.form .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.head a {
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+    background: #006f0d;
+    padding: 0.4rem 1rem;
+    font-weight: 900;
+    border-radius: 12px;
+}
+/*
+  TABLE STYLING 
+
+*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0.2rem auto;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+table tr {
+    margin: 1.3rem auto;
+    padding: 1rem 0.5rem;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    margin: 1.6rem auto;
+    padding: 1rem 0.5rem;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+td a {
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+td strong {
+    color: #494949;
+    font-weight: 600;
+}
+td #edit {
+    padding: 0.3rem 0.9rem;
+    margin: 0.3rem auto;
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background: #00acb1;
+}
+
+td #delete {
+    padding: 0.3rem 0.9rem;
+    margin: 0.3rem auto;
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background: #d95800;
+}
