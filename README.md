@@ -18,10 +18,10 @@ users.sql</li>
 <li>That's it ! Now it fixed</li>
 
 <center>
-<img src="/screenshots/Screenshot_2023-09-20-22-12-07-93.jpg" width="320" height="450">
-<img src="/screenshots/Screenshot_2023-09-20-22-13-13-88.jpg" width="320" height="450">
-<img src="/screenshots/Screenshot_2023-09-20-22-13-36-05.jpg" width="320" height="450">
-<img src="logo.png" width="320" height="450">
+<img src="/screenshots/Screenshot_2023-09-20-22-12-07-93.jpg" width="350" height="450">
+<img src="/screenshots/Screenshot_2023-09-20-22-13-13-88.jpg" width="350" height="450">
+<img src="/screenshots/Screenshot_2023-09-20-22-13-36-05.jpg" width="350" height="450">
+<img src="logo.png" width="350" height="450">
 <h2>How to clone ?</h2>
 </center>
 <br/>
