@@ -52,7 +52,7 @@ app.post("/edit-user", (req, res) => {
     var email = req.body.email;
     var phone = req.body.phone;
     var sql = `UPDATE
-    users SET user_name='${name}',user_email='${email}',user_phone='${phone}' WHERE user_id=${id}`;
+    users SET user_name='${name}',user_email='${email}',user_phone='${phone}' WHERE user_id='${id}'`;
     conn.query(sql, (error, result) => {
         if (error) {
             throw error;
