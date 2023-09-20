@@ -8,7 +8,7 @@
     "start": "nodemon app.js"
   },
   "engines": {
-    "node": "v20.2.0"
+    "node": "v18.x"
   },
   "author": "Ghs Julian",
   "developer": "Ghs Julian",
